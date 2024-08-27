@@ -30,7 +30,7 @@ const SignUp = () => {
 					Sign up User<span className='text-[#C43B56]'> ChatApp</span>
 				</h1>
 
-				<form onSubmit={handleSubmit}>
+				<form onSubmit={handleSubmit} className="text-white">
 					<div>
 						<label className='label p-2'>
 							<span className='text-base label-text'>Full Name</span>
